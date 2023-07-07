@@ -1,0 +1,54 @@
+.btn-primary{
+    background-color: #c5964a;
+    border: 0;
+}
+.btn-primary:hover{
+    background-color: #e0b878;
+}
+.text-prim{
+    color :  #c5964a;
+}
+.form-check-input{
+    background: #ffffff;
+    border: 0;
+}
+.form-check-input:checked  {
+    background-color: #c5964a
+    ;
+  }
+  input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+.btn-social{
+    border-radius: 200%;
+    margin-right: 3%;
+}
+.dollar{
+    background-color: #fcdaa4;
+}

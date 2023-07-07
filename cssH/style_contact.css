@@ -1,0 +1,109 @@
+/********** Template CSS **********/
+
+
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 2px;
+}
+/* my own css  */
+
+.text-col{
+    color: #884A39;
+}
+.play {
+    background-color: #C38154 !important;
+    border: 0 !important;
+    color : black !important;
+}
+.play:hover{
+    background-color: #884A39 !important;
+    color: white !important;
+}
+.play-2 {
+    background-color: #FFD89C;
+    border: 0;
+    color : black;
+}
+.btnlink{
+    display: block ;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF !important;
+    font-size: 15px !important;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.icon-fb{
+    margin-right: 5px !important;
+    width: 35px !important;
+    height: 35px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: var(--light) !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 35px !important;
+    transition: .3s !important;
+}
