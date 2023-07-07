@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <!-- Bootstrap core CSS -->
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css3/all.min.css" />
+    <link rel="stylesheet" href="css3/bootstrap.min.css" />
+    <link rel="stylesheet" href="css3/templatemo-style.css" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="test/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="test/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+ <link href="test/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" /> 
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="test/css/style.css" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ES - Détails des hôtels</title>
+        <!-- Favicon-->
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css2/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="assets/images/E.png">
+        <script src="assets/js/custom.js"></script>
+        <script src="js3/jquery.min.js"></script>
+      <script src="js3/parallax.min.js"></script>
+    </head>
+    <body>
+ 
+      
+        
+          <!-- ***** Header Area Start ***** -->
+          <header class="header-area header-sticky">
+         
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12">
+                          <nav class="main-nav">
+                              <!-- ***** Logo Start ***** -->
+                              <a href="#top" class="logo">
+                                  Easy Stay
+                              </a>
+                              <!-- ***** Logo End ***** -->
+                              <button class="flags" onclick="changeLanguage()">  <img src="usa.PNG" id="drap" alt="" width="13" height="13"> </button>
+                              <style>
+                                .flags{
+                                    margin-top: 31px;
+                                    margin-right: 50px;
+                                    background: transparent;
+                                    border: none;
+                                    display: none;
+                                }
+                                #language-select{
+                                    display: block; }
+                          
+                            @media (max-width: 755px){
+                                .flags{
+                                display: block;}
+                                #language-select{
+                                    display: none; }
+                            }
+                           
+
+                        </style>
+                    
+                              <!-- ***** Menu Start ***** -->
+                              <ul class="nav">
+                                  <li ><a href="ES.html" id="acc">Accueil</a></li>
+                                  <li ><a href="#hotel" id="hol">Hôtel</a></li>
+                                  
+                                  <li ><a href="#Suggestion" id="sug">Suggestions</a></li>
+                                  <li ><a href="#tmContact" id="tmc">Réactions</a></li>
+                                  <li ><a href="#contact" >Contact</a></li>
+                                  <li> 
+                                    <select id="language-select" onchange="changeLanguage()">
+                                        <option value="fr">Français </option>
+                                        <option value="en">Anglais </option>
+                                    
+                                    <!-- Ajoutez d'autres options de langue si nécessaire -->
+                                </select> </li>
+                                
+                        
+        
+        
+                               
+                              
+                              </ul>        
+                              <a class='menu-trigger'>
+                                  <span>Menu</span>
+                              </a>
+                              <!-- ***** Menu End ***** -->
+                              <style>
+                                #language-select {
+                                    padding: 5px;
+                                    font-size: 16px;
+                                    border: 1px solid #ccc;
+                                    border-radius: 4px;
+                                    background-color:#FFD89C;
+                                    color: #333;
+                                    outline: none;
+                                    cursor: pointer;
+                                }
+                                
+                                #language-select:hover {
+                                    border-color: #999;
+                                    background-color: #C38154;
+                                    color: white;
+                                    font-weight: bold;
+                                }
+                                
+                                #language-select:focus {
+                                    border-color: #555;
+                                } 
+                              </style>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </header>
+       
+      
+        <!-- Product section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="row gx-4 gx-lg-5 align-items-center" id="hotel">
+                    <div class="col-md-6">
+                        <img class="card-img-top mb-5 mb-md-0" src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." />
+                    </div>
+                    <div class="col-md-6" >
+                        <div class="small mb-1">Adresse de l'hôtel</div>
+                        <h1 class="display-5 fw-bolder">Nom de l'hôtel</h1>
+                        <div class="fs-5 mb-5">
+                            <span class="text-decoration-line-through">$45.00</span>
+                            <span>$40.00 /par jour</span>
+                        </div>
+                        <p class="lead">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus ipsam minima ea iste laborum vero?
+                        </p>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-outline-dark flex-shrink-0" type="button" id="sh">
+                                <i class="bi bi-globe me-1"></i>
+                                Site de l'hôtel
+                            </a>
+                            <a href="#" class="btn btn-outline-dark flex-shrink-0" type="button" >
+                                <i class="fas fa-map-marker-alt"></i>
+                                localisation
+                            </a>
+                            <div class="rating-square">
+                                <p>5 <i class="fas fa-star"></i></p>
+                                
+                               <style>
+
+                                .d-flex{
+                                    display: flex;
+                                    justify-content: space-between;
+                                }
+                                .rating-square {
+    padding : 15px 2px 2px 1px ; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border : 1px solid black ;
+}
+
+.rating-square p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.rating-square i {
+    margin-left: 2px;
+    color: #ffc107;
+}
+                                
+                               </style>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Related items section-->
+        <section class="py-5 bg-light" id="Suggestion">
+            <div class="container px-4 px-lg-5 mt-5">
+                <h2 class="fw-bolder mb-4" id="ahp">Autres hôtels à proximité</h2>
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hotel 1</h5>
+                                    <!-- Product price-->
+                                    $40.00 - $80.00
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="h.html" id="vd">Voir les details</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hotel 2</h5>
+                                    <!-- Product reviews-->
+                               
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$20.00</span>
+                                    $18.00
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="h.html" id="vo">Voir les details</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hotel 3</h5>
+                                    <!-- Product price-->
+                                    <span class="text-muted text-decoration-line-through">$50.00</span>
+                                    $25.00
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="h.html" id="vi">Voir les details</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">Hotel 4</h5>
+                                    <!-- Product reviews-->
+                                
+                                    <!-- Product price-->
+                                    $40.00
+                                    <div class="d-flex justify-content-center small text-warning mb-2">
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                        <div class="bi-star-fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="h.html" id="vu">Voir les détails</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/lightbox.js"></script>
+        <script src="assets/js/tabs.js"></script>
+        <script src="assets/js/video.js"></script>
+        <script src="assets/js/slick-slider.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <!-- Core theme JS-->
+
+
+   <!---->
+    <!-- Welcome Section -->
+    
+    <!-- End Welcome section -->
+
+    <!-- Portfolio section -->
+   
+    <!-- End portfolio section -->
+
+    <!-- Contact section -->
+    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img3/mini-profile-bg-02.jpg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="tm-contact-items-container">
+                <div class="tm-contact-item">
+                  <i class="fas fa-5x fa-thumbs-up tm-contact-item-icon"></i>
+                  <p class="mb-0" id="para" >
+                    Votre opinion compte ! Votre réaction et vos feedbacks sont essentiels pour nous aider à améliorer constamment notre service et à offrir la meilleure expérience possible.
+                  </p>
+                </div>
+                <div class="tm-contact-item">
+                  <i class="fas fa-5x fa-exclamation-circle tm-contact-item-icon"></i>
+                  <p class="mb-0" id="paro">
+                    En cas de problème ou de question, n'hésitez pas à contacter notre service client dédié. Nous sommes là pour vous aider et résoudre tout souci que vous pourriez rencontrer lors de votre séjour.
+                  </p>
+                </div>
+  
+                <div class="tm-contact-item">
+                  <i class="fas fa-5x fa-star tm-contact-item-icon"></i>
+                  <p class="mb-0" id="pari">
+                    Comment avez-vous trouvé notre service ? Nous aimerions connaître votre opinion ! Veuillez cliquer sur les étoiles ci-dessous pour évaluer votre expérience avec nous.
+                    <div class="rating-stars">
+                      <i class="far fa-star star"></i>
+                      <i class="far fa-star star"></i>
+                      <i class="far fa-star star"></i>
+                      <i class="far fa-star star"></i>
+                      <i class="far fa-star star"></i>
+                      <script src="js3/jquery.min.js"></script>
+                      
+  <script>
+    $(document).ready(function() {
+      $('.rating-stars .star').click(function() {
+        $(this).prevAll('.star').addBack().addClass('fas').removeClass('far');
+        $(this).nextAll('.star').addClass('far').removeClass('fas');
+      });
+    });
+  </script>
+                    </div>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="col-12">
+              <form
+                action="index.html"
+                method="POST"
+                id="tmContactForm"
+                class="tm-bg-white-transparent"
+              >
+                <div class="form-group">
+                  <input id="cel"
+                    type="text"
+                    id="contact_name"
+                    name="contact_name"
+                    class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                    placeholder="Nom"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input 
+                    type="email"
+                    id="contact_email"
+                    name="contact_email"
+                    class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    rows="4"
+                    id="contact_message"
+                    name="contact_message"
+                    class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button
+                    type="submit"
+                    class="btn tm-btn-submit rounded-0 text-white"
+                    id="send"
+                  >
+                    Envoyer
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- row -->
+        
+        </div>
+        <!-- container -->
+      </div>
+      <!-- section -->
+      
+
+   
+
+
+
+   <!---->
+
+        <section id="contact">
+            <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+                <div class="container pb-5" >
+                    <div class="row g-5">
+                        <div class="col-md-6 col-lg-4" style="background-color: #FFD89C">
+                            <div class=" rounded text-bg-warning p-3 newp" style="background-color: #FFD89C !important;>
+                                <a href="#"><h1 class="text-white text-uppercase mb-3" style=" color:black !important ;" >Easy Stay</h1></a>
+                                <p class="text-white mb-0" style=" color:black !important ;" id="ha">
+                                  Notre équipe dévouée est à votre disposition pour vous aider à trouver l'hôtel idéal, que ce soit pour un voyage d'affaires, des vacances en famille ou une escapade romantique.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <h6 class="section-title text-start text-h6 text-uppercase mb-4 hcolor">Contact</h6>
+                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Fés , Maroc</p>
+                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 19 70 61 44</p>
+                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>ilyas.makhloul0@gmail.com</p>
+                            <div class="d-flex pt-2">
+                                
+                                <a class="btn btn-outline-light btn-social" href="" style="background-color: transparent !important;"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="" style="background-color: transparent !important;"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="" style="background-color: transparent !important;"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-outline-light btn-social" href="" style="background-color: transparent !important;"><i class="fab fa-linkedin-in"></i></a>
+                                <style>
+                                    .d-flex.pt-2 a.btn.btn-outline-light.btn-social:hover {
+                                     color: #FFD89C;
+                                     background: black;
+                                     }
+                                </style>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-12">
+                            <div class="row gy-5 g-4">
+                                <div class="col-md-6">
+                                    <h6 class="section-title text-start text-h6 text-uppercase mb-4" id="ho">Entreprise</h6>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" id="hi">à propos de nous</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" id="ea">Contactez nous </a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;"id="eo">politique de confidentialité</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" id="ei">Termes & Conditions</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;">Support</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="section-title text-start text-h6 text-uppercase mb-4">Services</h6>
+                                    <a class="btn btn-link" class="c" href="" style="background-color: transparent !important;" id="ia">Alimentation & Restauration</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" >Spa & Fitness</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" id="ii">Sports et jeux</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;" id="iu">Événement et fête</a>
+                                    <a class="btn btn-link" href="" style="background-color: transparent !important;">GYM & Yoga</a>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0" id="io">
+                                &copy; <a class="border-bottom" href="#" >EasyStay</a>, Tous droits réservés Conçu par 
+        
+                                
+                                 <a class="border-bottom" href="https://artiweb.ma/">Artiweb</a>
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                <div class="footer-menu">
+                                    <a href="">Home</a>
+                                    <a href="">Cookies</a>
+                                    <a href="">Help</a>
+                                    <a href="">FQAs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <script src="test/js/clg.js"> </script> 
+    </body>
+</html>
